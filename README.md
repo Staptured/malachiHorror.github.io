@@ -21,3 +21,31 @@ https://user-images.githubusercontent.com/129776011/229578283-e54bd311-9cdb-4c38
   </audio>
 </body>
 </html>
+body {
+  background: black;
+  color: red;
+  text-align: center;
+  font-family: Arial, sans-serif;
+  padding: 20px;
+}
+
+.title {
+  font-size: 40px;
+  margin-top: 20px;
+  text-shadow: 0 0 10px red;
+}
+
+.scary {
+  width: 70%;
+  margin-top: 20px;
+  border: 3px solid red;
+  filter: brightness(70%);
+}
+
+.warning {
+  font-size: 24px;
+  margin-top: 20px;
+  text-shadow: 0 0 20px red;
+}<audio autoplay loop>
+  <source src="scary.mp3" type="audio/mpeg">
+</audio>
